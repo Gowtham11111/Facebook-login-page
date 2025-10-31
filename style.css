@@ -1,0 +1,117 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+h1{
+    margin: 0;
+    display: inline-block;
+    color: rgba(48, 48, 246, 0.886);
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 0px;
+}
+main{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+.Form{
+    border: solid 1px black;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0,0.3);
+    border: none;
+    height: 380px;
+    width: 380px;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 70%;
+}
+input{
+    margin-top: 15px;
+    padding: 17px 160px 17px 15px;
+    border: 1px solid rgb(0, 0, 0,0.3);
+    border-radius:5px;
+    outline-color: blueviolet;
+
+
+}
+.button1{
+    background-color: rgba(0, 0, 255, 0.858);
+    opacity: 80%;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 15px 140px 15px 145px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgba(0, 166, 0, 0.9);
+    opacity: 80%;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-right: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 75px;
+    cursor: pointer;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.Form a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30%;
+    color: blueviolet;
+    opacity: 90%;
+}
+.Line{
+    width: 340px;
+    height: 0%;
+    border-bottom: solid 1px rgb(0, 0, 0,0.2);
+    margin-top: 18px;
+}
+.header-p{
+    margin: 0%;
+    font-size: 25px;
+}
+.Text p{
+    font-size: smaller;
+}
+span{
+    font-weight: bold;
+}
+header{
+    position: relative;
+    left: 17%;
+    top: 200px;
+}
+.Paragraph{
+    position: relative;
+    left: 55%;
+    margin-top:30px ;
+    margin-left: 88px;
+}
+p.Paragraph{
+    font-size: 14px;
+}
+.button1:hover{
+    background-color: rgba(0, 0, 255, 0.711);
+    
+}
+.button2:hover{
+    background-color: rgb(0, 149, 0);
+}
+
